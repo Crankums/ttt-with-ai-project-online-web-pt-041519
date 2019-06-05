@@ -14,6 +14,6 @@ class Board
   end
 
   def position(input)
-    @cells[input]
+    @cells[input.to_i]
   end
 end
