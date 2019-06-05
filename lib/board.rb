@@ -10,7 +10,7 @@ class Board
   end
 
   def display
-    puts @cells
+    puts self
   end
 
 end
