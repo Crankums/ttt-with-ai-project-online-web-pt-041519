@@ -15,6 +15,6 @@ class Board
 
   def position(input)
     square = input.to_i + 1
-    self.@cells[square]
+    self.cells[square]
   end
 end
