@@ -14,6 +14,6 @@ class Board
   end
 
   def position(input)
-    input = gets.strip
+    @cells[input]
   end
 end
